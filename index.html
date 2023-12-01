@@ -7,8 +7,12 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>JavaScript Quiz</h1>
+    <h1>Evan's Coding Quiz For Beginners</h1>
+    <p class="quiz-description">Welcome to my coding quiz for beginners! This quiz will test your knowledge of some basic coding terminology.</p>
+    <p class="quiz-description">There is only 60 seconds to complete the quiz, and if you answer wrong you will lose 10.</p>
+    <p class="quiz-description">Good luck, and don't forget to enter your initials for our leader-board at the end!</p>
     <button id="start-btn">Start Quiz</button>
+    <!-- Start quiz Button -->
 
     <!-- ID containers to connect to JavaScript -->
 
@@ -20,11 +24,21 @@
         <button id="choice-btn-4" class="choice-btn"></button>
     </div>
 
+    <!-- Timer container for the time remaining. -->
+    <div id="timer-container">
+        <span id="result-message"></span>
+        <span id="save-score-container" style="display: none;">
+        </span>
+    </div>
+
     <div id="result-container"></div>
+   <!-- Result container ID for the quiz results -->
+        <label for="initials-input">Enter Your Initials:</label>
+        <input type="text" id="initials-input" maxlength="3" placeholder="AAA" required>
+        <button id="submit-btn">Submit</button>
+        <button id="back-btn">Back</button>
+    </div>
 
     <script src="script.js"></script>
-
-
-
 </body>
 </html>
