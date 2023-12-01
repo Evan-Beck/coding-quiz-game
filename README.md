@@ -20,4 +20,11 @@ The final thing that I could not fix was the timer element. When a wrong answer 
 
 I was able to meet the rest of the acceptance criteria, everything else displayed properly. All choice boxes were even, the text was formatted and colored coherently the way I wanted it to be. 
 
-Here is the link to the live server
+Here is the link to the live server - https://egamer13.github.io/coding-quiz-game/
+
+Here are 4 screenshots of the finished product. 
+
+![Screenshot 1](Coding-Quiz-1.png)
+![Screenshot 2](coding-quiz-2.png)
+![Screenshot 3](coding-quiz-3.png)
+![Screenshot 4](coding-quiz-4.png)
